@@ -1,5 +1,5 @@
 from apiflask import Schema
-from apiflask.fields import String,UUID
+from apiflask.fields import UUID,String
 
 class UserIn(Schema):
     name=String()

@@ -8,3 +8,9 @@ wheels/
 
 # Virtual environments
 .venv
+instance
+.env
+.flaskenv
+app.py
+main.py
+models.py

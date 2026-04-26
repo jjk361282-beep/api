@@ -8,6 +8,7 @@ dnspython==2.8.0
 email-validator==2.3.0
 flask==3.1.3
 flask-httpauth==4.8.1
+flask-jwt-extended==4.7.1
 flask-marshmallow==1.5.0
 flask-migrate==4.1.0
 flask-sqlalchemy==3.1.1
@@ -21,9 +22,11 @@ marshmallow==4.3.0
 packaging==26.1
 pydantic==2.13.3
 pydantic-core==2.46.3
+pyjwt==2.12.1
 python-dotenv==1.2.2
 sqlalchemy==2.0.49
 typing-extensions==4.15.0
 typing-inspection==0.4.2
+unicorn==2.1.4
 webargs==8.7.1
 werkzeug==3.1.8
