@@ -68,4 +68,5 @@ class UserContreller:
     @staticmethod
     def delete():
         User.query.delete()
+        db.session.commit()
         return {'message':'db vider'}
